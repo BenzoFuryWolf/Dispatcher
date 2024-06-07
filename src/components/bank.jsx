@@ -1,6 +1,6 @@
 import {useDispatch, useSelector} from "react-redux";
 
-let Bank = () =>{
+let Bankir = () =>{
     const dispatch = useDispatch()
     const cash = useSelector(state => state.cash)
     const nominal = {
@@ -19,9 +19,6 @@ let Bank = () =>{
 
     return (
         <>
-            <div>
-
-            </div>
             <h1>MyDispatcher</h1>
             <div className="card">
                 <h1>
@@ -55,9 +52,8 @@ let Bank = () =>{
                         Subtract 100
                     </button>
                 </div>
-
-            </div>
+                </div>
         </>
     )
 }
-export default Bank
+export default Bankir

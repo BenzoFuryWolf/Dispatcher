@@ -1,9 +1,13 @@
 
 import './App.css'
-import Bank from "./components/bank.jsx";
-
+import {
+    RouterProvider,
+} from "react-router-dom";
+import router from "./routes/router.jsx";
 function App() {
-        return(<Bank></Bank>)
+        return (<>
+            <RouterProvider router={router}/>
+        </>)
 }
 
 
