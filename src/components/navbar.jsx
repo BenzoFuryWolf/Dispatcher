@@ -7,6 +7,7 @@ let Navbar = () =>{
                 <Link to={`/Main`}>Main</Link>
                 <Link to={`/bank`}>Dispatcher</Link>
                 <Link to={`/counter`}>Counter</Link>
+                <Link to={`/login`}>Log in</Link>
                 <Link to={`/About`}>About</Link>
 
             </nav>

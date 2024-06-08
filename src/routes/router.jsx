@@ -4,6 +4,7 @@ import Navbar from "../components/navbar.jsx";
 import MainPage from "./main.jsx";
 import AboutPage from "./About.jsx";
 import Counter from "./Counter.jsx";
+import Login from "./Login.jsx";
 const router =createBrowserRouter([
     {
         path:"/",
@@ -24,6 +25,10 @@ const router =createBrowserRouter([
             {
                 path: "/counter",
                 element: (<Counter/>)
+            },
+            {
+                path: "/login",
+                element: (<Login/>)
             }
         ]}
 ])
