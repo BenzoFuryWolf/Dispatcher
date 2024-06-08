@@ -3,6 +3,7 @@ import Bank from "./Bank.jsx";
 import Navbar from "../components/navbar.jsx";
 import MainPage from "./main.jsx";
 import AboutPage from "./About.jsx";
+import Counter from "./Counter.jsx";
 const router =createBrowserRouter([
     {
         path:"/",
@@ -19,6 +20,10 @@ const router =createBrowserRouter([
             {
                 path:"/bank",
                 element: (<Bank/>),
+            },
+            {
+                path: "/counter",
+                element: (<Counter/>)
             }
         ]}
 ])

@@ -5,8 +5,10 @@ let Navbar = () =>{
         <header>
             <nav>
                 <Link to={`/Main`}>Main</Link>
-                <Link to={`/bank`}>Counter</Link>
+                <Link to={`/bank`}>Dispatcher</Link>
+                <Link to={`/counter`}>Counter</Link>
                 <Link to={`/About`}>About</Link>
+
             </nav>
         </header>
         <main>
